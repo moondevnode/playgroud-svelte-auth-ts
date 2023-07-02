@@ -1,0 +1,25 @@
+# modules
+node_modules
+
+# build
+/build
+/package
+static/
+dist/
+
+# config
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+/.svelte-kit
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+
+# privates
+_*/
+
+# binary
+*.exe
