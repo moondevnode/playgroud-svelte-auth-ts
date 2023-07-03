@@ -2,6 +2,76 @@
 
 > "Svelte Authentication(Signup, Login, Logout / JWT, OAuth) with Typescript
 
+# [(코딩셀러) 인증 별거 아님~ (feat. 포켓베이스, 스벨트킷과 함께 라면)](https://www.youtube.com/watch?v=uf6ryvENJ6g&list=PL2Y878eUwQK6u-ELK5lKZViyP2l6EymIS)
+
+## picocss 적용
+
+> `src/app.html`
+
+```html
+<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css" />
+...
+```
+
+> `src/routes/+layout.svelte`
+
+> `src/routes/+page.svelte`
+
+## npm install
+
+```bash
+npm install pocketbase  --save
+```
+
+## install vscode extension
+
+```
+kit-snippets
+```
+
+## pocketbase instance
+
+> `src/lib/pocketbase.ts`
+
+### references
+
+- [AuthStore](https://github.com/pocketbase/js-sdk#authstore)
+- [SSR integration](https://github.com/pocketbase/js-sdk#ssr-integration)
+
+> `src/hooks.server.ts`
+
+### app.d.ts (jsDoc 사용시)
+
+> `src/app.d.ts`
+
+## 회원가입
+
+> `src/routes/register/+page.svelte`
+
+> `src/routes/register/+page.server.ts`
+
+## 로그인
+
+> `src/routes/login/+page.svelte`
+
+> `src/routes/login/+page.server.ts`
+
+## 로그인시 페이지 적용
+
+> `src/routes/+layout.server.ts`
+
+> `src/routes/+page.svelte`
+
+> `src/routes/+layout.svelte`
+
+## 로그아웃
+
+> `src/routes/logout/+server.ts`
+
+## 로그인시 login, register 페이지(주소창에 넣었을 경우) redirect
+
+===
 
 # setup
 
@@ -10,7 +80,6 @@
 ### path, Admin 설정
 
 ### Settings > Mail settings(SMTP server), Authentication > Auth providers
-
 
 ## init app
 
