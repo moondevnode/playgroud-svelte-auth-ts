@@ -8,7 +8,7 @@
       <li><a href="/" style="color: orange; font-weight: bold; font-size: 2rem">Brand</a></li>
     </ul>
     <ul>
-      {#if data?.profile}
+      {#if data?.user}
         <li>
           <form action="/logout" method="POST">
             <button>로그아웃</button>

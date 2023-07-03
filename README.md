@@ -2,6 +2,34 @@
 
 > "Svelte Authentication(Signup, Login, Logout / JWT, OAuth) with Typescript
 
+# [SvelteKit & PocketBase #1 - Authentication & User Management](https://www.youtube.com/watch?v=vKqWED-aPMg)
+
+> [Github](https://github.com/huntabyte/showcase/tree/episode-1)
+
+> [POCKETBASE TUTORIAL 1 - LOGIN WITH EMAIL](https://www.youtube.com/watch?v=GQuaf9s4vDA&list=PLusHaWo40rSuvXk4zb3SMnQ8p4AOIhxWV&index=2)
+
+## Settings > Mail settings(SMTP server: Gmail 사용)
+
+## 회원가입
+
+> `src/routes/register/+page.svelte`
+
+> `src/routes/register/+page.server.ts`
+
+## 로그인
+
+> `src/routes/login/+page.svelte`
+
+> `src/routes/login/+page.server.ts`
+
+## 암호 초기화
+
+> `src/routes/reset-password/+page.svelte`
+
+> `src/routes/reset-password/+page.server.ts`
+
+===
+
 # [(코딩셀러) 인증 별거 아님~ (feat. 포켓베이스, 스벨트킷과 함께 라면)](https://www.youtube.com/watch?v=uf6ryvENJ6g&list=PL2Y878eUwQK6u-ELK5lKZViyP2l6EymIS)
 
 ## picocss 적용

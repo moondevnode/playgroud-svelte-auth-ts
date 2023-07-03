@@ -1,3 +1,7 @@
+<script>
+  export let form;
+</script>
+
 <article>
   <h1>로그인</h1>
   <form method="POST">
@@ -5,4 +9,7 @@
     <input type="password" name="password" placeholder="비밀번호" required />
     <button type="submit">로그인</button>
   </form>
+  {#if form?.notVerified}
+    <article>You must verify your email befor you can login</article>
+  {/if}
 </article>

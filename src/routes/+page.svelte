@@ -2,4 +2,4 @@
   export let data;
 </script>
 
-<h1>Welcome to {data.profile?.name || 'World'}</h1>
+<h1>Welcome to {data.user?.name || 'World'}</h1>
