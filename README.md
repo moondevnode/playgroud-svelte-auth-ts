@@ -2,6 +2,20 @@
 
 > "Svelte Authentication(Signup, Login, Logout / JWT, OAuth) with Typescript
 
+# [SvelteKit & PocketBase #2 - User Settings & Avatar Upload](https://www.youtube.com/watch?v=mM5sqLUS4nY)
+
+> [Github](https://github.com/huntabyte/showcase/tree/episode-2)
+
+## 나의 설정
+
+> `src/routes/my/settings/+layout.svelte`
+
+```bash
+npm i svelte-hero-icons
+```
+
+===
+
 # [SvelteKit & PocketBase #1 - Authentication & User Management](https://www.youtube.com/watch?v=vKqWED-aPMg)
 
 > [Github](https://github.com/huntabyte/showcase/tree/episode-1)

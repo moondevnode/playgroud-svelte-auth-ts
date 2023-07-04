@@ -31,6 +31,7 @@
   "description": "Svelte Authentication(Signup, Login, Logout / JWT, OAuth) with Typescript",
   "author": "Moon Dev Node <moondevnode@gmail.com>",
   "dependencies": {
-    "pocketbase": "^0.15.2"
+    "pocketbase": "^0.15.2",
+    "svelte-hero-icons": "^5.0.0"
   }
 }
